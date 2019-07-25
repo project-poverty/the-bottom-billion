@@ -3,7 +3,8 @@
 <html>
     
 <head>
-        
+
+<link rel="stylesheet" type="text/css" href="bootstrap.css">        
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -21,24 +22,7 @@
   
 <meta name="viewport" content="width=device-width, initial-scale=1">
        
-<title>The Bottom Billion</title>
-<style>
-.footer{
-    padding: 10px 0;
-    background-color: #101010;
-    color:#9d9d9d;
-    text-align:center;
-    bottom: 0;
-    width: 100%;
-}
-h2{
-    text-align: right;
-}
-.reason{
-    color: white;
-    background-color: #67E6Dc;
-}
-</style> 
+<title>About |The Bottom Billion</title> 
 </head>
 <body>
 <?php
@@ -112,10 +96,10 @@ include 'header.php';
     <div class="thumbnail">
         <h1><strong>OUR HISTORY</strong></h1>
         <p>We've been delivering lasting change since 1945. Discover how we got our start as a global poverty-fighting organization.</p>      
-        <img src="15.jpg" alt="Poverty">
+        <img src="11.jpg" alt="Poverty">
 <br><br>   
         <div class="button">
-            <button type="button" name="partners" class="btn btn-warning"><a href="partners.php">LEARN MORE</a></button>
+            <button type="button" name="partners" class="btn btn-warning"><a href="https://en.wikipedia.org/wiki/The_Bottom_Billion#Synopsis">LEARN MORE</a></button>
 <br><br>     
         </div>
 
