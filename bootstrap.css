@@ -1,0 +1,21 @@
+.footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    text-align: right;
+}
+.reason{
+    color: white;
+    background-color: #67E6Dc;
+}
+.about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

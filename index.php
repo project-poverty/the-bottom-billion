@@ -13,7 +13,8 @@ if (isset($_SESSION['email'])) {
 <html>
     
 <head>
-        
+
+<link rel="stylesheet" type="text/css" href="bootstrap.css">        
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -31,30 +32,13 @@ if (isset($_SESSION['email'])) {
   
 <meta name="viewport" content="width=device-width, initial-scale=1">
        
-<title>The Bottom Billion</title>
-<style>
-.footer{
-    padding: 10px 0;
-    background-color: #101010;
-    color:#9d9d9d;
-    text-align:center;
-    bottom: 0;
-    width: 100%;
-}
-h2{
-    text-align: right;
-}
-.reason{
-    color: white;
-    background-color: #67E6Dc;
-}
-</style> 
+<title>The Bottom Billion</title> 
 </head>
 <body>
 <?php
 include 'header.php';
 ?>
-<div class="container-fluid">
+<div class="container">
 
     <div class="thumbnail">      
         <img src="1.jpg" alt="Poverty">
@@ -78,7 +62,7 @@ include 'header.php';
 
 
 </div> 
-<div class="container-fluid">
+<div class="container">
     <div class="caption">
         <h1><strong>COUNTRIES IN CRISIS</strong></h1>
         <img src="6.jpg" alt=""><br><br><br>
@@ -140,30 +124,6 @@ Governments and non-governmental organizations try to reduce poverty. Providing 
 
     </div>
 </div> 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-sm-12">
-            <h1><strong><a href="about.php">ABOUT US</a></strong></h1>
-            <ul>
-                <li><h3><a href="vision.php">Mission & Vision</a></h3></li>
-                <li><h3><a href="leadership.php">Leadership</a></h3></li>
-                <li><h3><a href="partners.php">Partners</a></h3></li>
-                <li><h3><a href="newsroom.php">News,Blogs & Stories</a></h3></li>
-                <li><h3><a href="faq.php">FAQ</a></h3></li>
-            </ul>
-        </div>
-        <div class="col-md-6 col-sm-12">
-            <h1><strong><a href="donate.php">HOW YOU CAN HELP</a></strong></h1>
-            <ul>
-                <li><h3><a href="donate.php">Donate Now</a></h3></li>
-                <li><h3><a href="donate.php">Give Monthly</a></h3></li>
-                <li><h3><a href="products.php">Gift Catalog</a></h3></li>
-                <li><h3><a href="login.php">Get Involved</a></h3></li>
-                <li><h3><a href="signup.php">Become a Corporate Partner</a></h3></li><br><br>
-            </ul>
-        </div>
-    </div>
-</div>
 <?php
 include 'footer.php';
 ?>

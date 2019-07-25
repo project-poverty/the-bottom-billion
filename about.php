@@ -46,7 +46,7 @@ include 'header.php';
 ?>
 <h5><a href="index.php">Home</a>><strong>About</strong></h5>
 <h1><strong>ABOUT</strong></h1>
-<div class="container-fluid">
+<div class="container">
 
     <div class="thumbnail">      
         <img src="3.jpg" alt="Poverty">
@@ -60,7 +60,63 @@ include 'header.php';
         </div>
         <div class="button">
             <button type="button" name="vision" class="btn btn-warning"><a href="vision.php">LEARN ABOUT OUR MISSION</a></button>
-     
+<br><br>     
+        </div>
+
+    </div>                     
+      
+       
+
+
+
+</div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6 col-sm-12 about">      
+            <img src="13.jpg" alt="Poverty">
+   
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <h1>ABOUT US</h1>
+            <p>THE BOTTOM BILLION has been working in India for over 68 years, focusing on alleviating poverty and social exclusion. We do this through well-planned and comprehensive programmes in health, education, livelihoods and disaster preparedness and response. We also focus on generating and sharing knowledge with diverse stakeholders to influence sustainable impact at scale. Our overall goal is the empowerment of women and girls from poor and marginalised communities, leading to improvement in their lives and livelihoods. We are part of the TBB International Confederation working in over 90 countries for a world where all people live with dignity and security.</p>    
+        </div>
+    </div>                     
+      
+       
+
+
+
+</div>
+<div class="container">
+
+    <div class="thumbnail">
+        <h1><strong>LEARN ABOUT OUR PARTNERS</strong></h1>
+        <p>We work with corporations, institutions and other agencies to more efficiently help people in need.</p>      
+        <img src="14.png" alt="Poverty">
+<br><br>   
+        <div class="button">
+            <button type="button" name="partners" class="btn btn-warning"><a href="partners.php">LEARN MORE</a></button>
+<br><br>     
+        </div>
+
+    </div>                     
+      
+       
+
+
+
+</div>
+<div class="container">
+
+    <div class="thumbnail">
+        <h1><strong>OUR HISTORY</strong></h1>
+        <p>We've been delivering lasting change since 1945. Discover how we got our start as a global poverty-fighting organization.</p>      
+        <img src="15.jpg" alt="Poverty">
+<br><br>   
+        <div class="button">
+            <button type="button" name="partners" class="btn btn-warning"><a href="partners.php">LEARN MORE</a></button>
+<br><br>     
         </div>
 
     </div>                     
@@ -94,47 +150,6 @@ include 'header.php';
 
     </div>
 </div> 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-sm-12">
-            <h1><strong><a href="about.php">ABOUT US</a></strong></h1>
-            <ul>
-                <li><h3><a href="vision.php">Mission & Vision</a></h3></li>
-                <li><h3><a href="leadership.php">Leadership</a></h3></li>
-                <li><h3><a href="partners.php">Partners</a></h3></li>
-                <li><h3><a href="newsroom.php">News,Blogs & Stories</a></h3></li>
-                <li><h3><a href="faq.php">FAQ</a></h3></li>
-            </ul>
-        </div>
-        <div class="col-md-6 col-sm-12">
-            <h1><strong><a href="donate.php">HOW YOU CAN HELP</a></strong></h1>
-            <ul>
-                <li><h3><a href="donate.php">Donate Now</a></h3></li>
-                <li><h3><a href="donate.php">Give Monthly</a></h3></li>
-                <li><h3><a href="products.php">Gift Catalog</a></h3></li>
-                <li><h3><a href="login.php">Get Involved</a></h3></li>
-                <li><h3><a href="signup.php">Become a Corporate Partner</a></h3></li><br><br>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <h3><strong>To donate, please call us at 1-833-251-TBB within the INDIA(24 hours) or +1-404-665-2892 (M-F, 8:30 a.m.-6:00 p.m.).</strong></h3>
-</div>  
-<div class="container">
-    <h1>Quick Donate</h1>
-    <form>
-
-        <div class="form-group">
-
-            <input class="form-control" placeholder="Enter amount(in Rs.)" name="Rs.">
-                                              </div>
-                 
-        <a href="donate.php"><button type="submit" name="submit" class="btn btn-primary">Submit</button>
-</a><br><br>        
-    </form>
- 
-</div>
 <?php
 include 'footer.php';
 ?>

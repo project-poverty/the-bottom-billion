@@ -1,38 +1,25 @@
-<!DOCTYPE html>
-
-<html>
-    
-<head>
-        
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-
-
-     
-<!--jQuery library--> 
-  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-
-  
-<!--Latest compiled and minified JavaScript--> 
-    
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-<meta name="viewport" content="width=device-width, initial-scale=1">
-       
-<title>The Bottom Billion</title> 
-<style>
-.footer{
-    padding: 10px 0;
-    background-color: #101010;
-    text-align:center;
-    color:#9d9d9d;
-    bottom: 0;
-    width: 100%;
-}
-</style> 
-</head>
-<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h1><strong><a href="about.php">ABOUT US</a></strong></h1>
+            <ul>
+                <li><h3><a href="vision.php">Mission & Vision</a></h3></li>
+                <li><h3><a href="partners.php">Partners</a></h3></li>
+                <li><h3><a href="newsroom.php">News,Blogs & Stories</a></h3></li>
+                <li><h3><a href="faq.php">FAQ</a></h3></li>
+            </ul>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <h1><strong><a href="donate.php">HOW YOU CAN HELP</a></strong></h1>
+            <ul>
+                <li><h3><a href="donate.php">Donate Now</a></h3></li>
+                <li><h3><a href="donate.php">Give Monthly</a></h3></li>
+                <li><h3><a href="products.php">Gift Catalog</a></h3></li>
+                <li><h3><a href="login.php">Get Involved</a></h3></li>
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="container">
     <h3><strong>To donate, please call us at 1-833-251-TBB within the INDIA(24 hours) or +1-404-665-2892 (M-F, 8:30 a.m.-6:00 p.m.).</strong></h3>
 </div>  
@@ -61,5 +48,5 @@
         <p>Copyright © 2019 TBB All Rights Reserved</p>
     </div>
 </div>
-</body>
+
    
